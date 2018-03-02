@@ -3,6 +3,7 @@ var restaurants = [
 		"price": 1,
 		"name": "McDonalds",
 		"meals": ["breakfast", "lunch", "dinner"],
+	    	"cuisine": "fast food",
 		"type": ["fast food"]
    //lol
     },
@@ -10,78 +11,91 @@ var restaurants = [
 		"price": 1,
 		"name": "BurgerKing",
 		"meals": ["lunch", "dinner"],
+	    	"cuisine": "fast food",
 		"type": ["fast food"]
     },
     {
 		"price": 1,
 		"name": "Arbys",
 		"meals": ["lunch", "dinner"],
+	    	"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "Wendys",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "Culvers",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "Sonic",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "Tacobell",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "Dairy Queen",
 		"meals": ["lunch", "dinner"],
-		"type": ["fast food", "ice cream"]
+		"cuisine": "fast food",
+		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "Taco Johns",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "Tony's Tacos",
 		"meals": ["lunch", "dinner"],
-		"type": ["mexican"]
+		"cuisine": "mexican".
+		"type": ["dine in"]
 	},
 	{
 		"price": 1,
 		"name": "Subway",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "KFC",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "PizzaHut",
 		"meals": ["lunch", "dinner"],
-		"type": ["pizza"]
+		"cuisine": "pizza",
+		"type": ["delivery", "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Culvers",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food"
 		"type": ["fast food"]
 	},
 		   
@@ -89,90 +103,105 @@ var restaurants = [
 		"price": 1,
 		"name": "Little Ceasars",
 		"meals": ["lunch", "dinner"],
-		"type": ["pizza"]
+		"cuisine": "pizza",
+		"type": ["carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Dominos",
 		"meals": ["lunch", "dinner"],
-		"type": ["pizza"]
+		"cuisine": "pizza",
+		"type": ["delivery", "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Caseys",
 		"meals": ["lunch", "dinner"],
-		"type": ["pizza"]
+		"cuisine": "pizza",
+		"type": ["delivery", "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Marcos",
 		"meals": ["lunch", "dinner"],
-		"type": ["pizza"]
+		"cuisine": "pizza",
+		"type": ["delivery", "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Uptown Pizza",
 		"meals": ["lunch", "dinner"],
-		"type": ["pizza"]
+		"cuisine": "pizza",
+		"type": ["delivery", "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Papa Murphys",
 		"meals": ["lunch", "dinner"],
-		"type": ["pizza"]
+		"cuisine": "pizza",
+		"type": ["carry out", "vegan"]
 	},
 	{
 		"price": 1,
 		"name": "First Wok",
 		"meals": ["lunch", "dinner"],
-		"type": ["asian"]
+		"cuisine": "asian",
+		"type": ["delivery", "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Steak n' Shake",
 		"meals": ["lunch", "dinner"],
+		"cuisine": "fast food",
 		"type": ["fast food"]
 	},
 	{
 		"price": 1,
 		"name": "Great Wall",
 		"meals": ["lunch", "dinner"],
-		"type": ["asian"]
+		"cuisine": "asian",
+		"type": ["delivery" "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Chings",
 		"meals": ["lunch", "dinner"],
-		"type": ["asian"]
+		"cuisine": "asian",
+		"type": ["delivery", "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "China Star",
 		"meals": ["lunch", "dinner"],
-		"type": ["asian"]
+		"cuisine": "asian",
+		"type": ["delivery", "carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Fazolis",
 		"meals": ["lunch", "dinner"],
-		"type": ["italian"]
+		"cuisine": "italian",
+		"type": ["carry out", "dine in"]
 	},
 	{
 		"price": 1,
 		"name": "Michaels",
 		"meals": ["lunch", "dinner"],
-		"type": ["italian"]
+		"cuisine": "italian",
+		"type": ["dine in"]
 	},
 	{
 		"price": 1,
 		"name": "La Gondola",
 		"meals": ["lunch", "dinner"],
-		"type": ["italian"]
+		"cuisine": "italian",
+		"type": ["carry out"]
 	},
 	{
 		"price": 1,
 		"name": "Eric's Resturaunt",
 		"meals": ["lunch", "dinner"],
+		
 		"type": ["mexican"]
 	},
 	{
@@ -619,7 +648,7 @@ var restaurants = [
 		"price": 2,
 		"name": "Windy City Wieners",
 		"meals": ["lunch", "dinner"],
-		"type": ["americans"]
+		"type": ["american"]
 	},
 	{
 		"price": 2,
